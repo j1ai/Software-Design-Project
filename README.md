@@ -1,0 +1,2 @@
+# Software-Design-Project
+Constructed a user-friendly Java shopping application with 3 other students, which presented a GUI front-end to the end users where they could select the desired options using a menu ▪ Designed a database system for CSV files, which allowed the end users to maintain the product and warehouse information (e.g. Shipping routes between warehouses, sales reports, availability of products)
