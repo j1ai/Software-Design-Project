@@ -1,0 +1,29 @@
+ Walkthrough
+Scenario: “logged in user locates all items of category TSHIRT with a price in the range 5 to 10 dollars (inclusive) and places an order for two such items.”
+0) System: User logged in as Shopper
+Given: ID, password
+
+1) Shopper: Browse Merchandise 
+Given: category, price-range, Inventory
+	
+2) Inventory: Filter Merchandise
+Given: category, price-range, Category, Product
+
+3) Shopper: Add product to shopping cart
+Given: product, quantity(bought), Product
+
+4) Shopper: Add another product to shopping cart
+Given: product, quantity, Product
+
+5) Shopper: Checkout
+Given: Inventory, Invoice
+
+6) Inventory : deduct quantity
+Given: product, quantity, Product
+
+7) Invoice : create a new Invoice object
+Given: product, quantity
+
+8) Shopper: Add invoice to the list of invoice
+Given: Invoice
+

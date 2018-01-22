@@ -1,0 +1,104 @@
+Planning Meeting Minutes
+================================
+Date and time: 24 Jul 2016, 2:00 p.m 
+Location: Bahen
+Current state of the project:
+	-done: Product
+	-implemented: Administrator, Shopper 
+	-almost done: User
+	
+Tasks for this week:
+	- finish all exception classes (Max, Zhongtian, Yilin) 
+	- finish Administrator, Shopper, User (Zhongtian, Yilin, Max)
+	- implement Inventory, OutofStock exception (Justin)
+	- discuss distribution centre and storing data in csv
+	- finish backend
+	
+
+Status Meeting Minutes
+==============================
+Date and time: 25 Jul 2016, 1:00 p.m.
+Location: Bahen
+Current state of project:
+	- (Done, might be deleted) Address.java
+	- (Done) Administrator.java
+	- (Done) Category.java
+	- (In Progress) DistributionCenter.java
+	- (Done) ExistingUserException.java
+	- (Done) Inventory.java
+	- (Done) Invoice.java
+	- (Done) OutOfStockException.java
+	- (Done) Product.java
+	- Project.java
+	- (In Progress) Shopper.java
+	- TestClass.java
+	- (In Progress) User.java
+	- (Done) UserDNEException.java
+
+To Do:
+	- (Implement) InventoryManager.java
+	- (Implement) UserManager.java
+	- (Implement) Route.java
+	- Create testclasses
+
+
+Planning Meeting Minutes
+================================
+Date and time: 27 Jul 2016, 1:00 p.m.
+Location: Bahen	
+
+Current state of the project:
+	-done: Product, Administrator, Category,Inventory,Invoice,Shopper, User, Exception classes
+	-implemented: Distribution Center
+	-almost done: InventoryManager, UserManager
+	
+Tasks to do:
+	-Finish InventoryManager(Justin and Max) and UserManager (Yilin and Zhongtian)
+	-Project.java (Everyone)
+	-Docstrings(Yilin, Max)
+	-Discuss how routes will work for customers, further implement it into DistributionCenter.java(Everyone)
+	-Test all classes
+
+
+
+Planning Meeting Minutes
+================================
+Date and time: 31 July 2016, 2:00 p.m.
+Location: Bahen	
+
+Current state of the project:
+	-done: Phase II but need changes on route/graphs
+
+Tasks to do:
+	-Need to change CRC/backend to match with front end requirements	
+	-ProjectV1(ZhongTian)
+	-Graph/Route(Justin and Max)
+	-GUI(Yilin and Max)
+
+Status Meeting Minutes
+==============================
+Date and time: 02 Aug 2016, 6:00 p.m.
+Location: Bahen
+Current state of project:
+	-done: Generated javadox files for phase II, projectV1, fixed backend with updated requirement
+
+To do:
+	-finish graph/route(Justin and zhongtian)
+	-keep working on GUI and for demo (max and yilin)
+	-CRC update(zhongtian)
+	-Javadoc for phase III(Yilin)
+
+
+Status Meeting Minutes
+==============================
+Date and time: 04 Aug 2016, 1:00 p.m.
+Location: Bahen
+Current state of project:
+	-done: Finished graph
+	-almost done:GUI
+
+To do:
+	-finish GUI / demo
+	-Javadoc for phase III
+
+

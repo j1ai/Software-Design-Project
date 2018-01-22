@@ -1,0 +1,35 @@
+User:is an abstract class that Shopper and administrator class will inherit from. It will contain two strings: username and password. The user can also browse merchandise 
+which will return a list.
+
+
+Shopper(user): 
+contains an ArraylList of Invoice and a hashmap for Product in your Shopping cart(key the key is the product and the value as the quantity. Shopper can add new products
+to cart, checkout and view a list of old purchases.
+
+Administrator(user):Object
+This is a class with methods that will change, add and generate different needed aspects of products.
+
+Product: Object
+	BufferedImage: image
+	double: ID, price and quantity
+	String: description and category 
+
+
+Category:contains an ArrayList of Product with their respective string code and description. Category can also add new product objects into the ArrayList.
+
+Inventory:contains an ArrayList of Category. It will be able to sort by categories and available quantity. Inventory can also filter merchandise and deduct quantities 
+of the products when a customer purchases a product.
+
+Invoice: Object
+Invoice will contains string shopper, invoice ID, and total price. Also a list of products ordered. 
+
+
+UserManager is a class that all types of users will use. This class will have two methods, read csv and write csv where the data of users and inventories will read
+and write off of it to get the information it needs.
+
+InventoryManager is similar to UserManager class. In this case, inventory will use it to read and write off different inventory products.
+
+csv file: We will use two csv files. The first file will contain all information on users(Shopper and Administrator). 
+Each line within will represent a different exsisting user. The second file Inventory will store all the inventory information. 
+There will be Category titles and their respective products under the title. There will be a space between the different categories.
+ 
